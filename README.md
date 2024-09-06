@@ -70,7 +70,7 @@ This project focuses on analyzing coffee sales data using **Microsoft Excel** to
 This project demonstrates how data analysis can optimize coffee shop operations, highlight peak performance times, and suggest targeted improvements for each location.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l41YdO48HRpDIFSoA/giphy.gif" width="200" alt="Barista GIF">
+  <img src="[https://media.giphy.com/media/l41YdO48HRpDIFSoA/giphy.gif](https://media.giphy.com/media/eujb1tWaj3ZxS/giphy.gif?cid=790b7611vvwi2rofnu7l43ofkf5knkvazu0mmoawdadlrbrm&ep=v1_gifs_search&rid=giphy.gif&ct=g)" width="200" alt="Barista GIF">
 </p>
 
 ## 👤 Author
