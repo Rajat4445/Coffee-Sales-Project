@@ -1,72 +1,80 @@
-# Coffee Sales Report: Data Cleaning, Transformation, and Analysis
+<p align="center">
+  <img src="https://media.giphy.com/media/3oEduK14P1v6bPYjW8/giphy.gif" width="200" alt="Coffee GIF">
+</p>
 
-## Project Overview
-This project focuses on analyzing coffee sales data to extract insights and make data-driven recommendations. The data was cleaned, transformed, and visualized using Microsoft Excel, with a final dashboard summarizing the key findings.
+# ☕ Coffee Sales Report: Data Cleaning, Transformation, and Analysis
 
-## Data Cleaning & Transformation
+![Excel Badge](https://img.shields.io/badge/Microsoft%20Excel-Data%20Analysis-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/Status-Complete-green)
+
+## 🚀 Project Overview
+This project focuses on analyzing coffee sales data using **Microsoft Excel** to extract insights and make data-driven recommendations. The data was cleaned, transformed, and visualized, culminating in a comprehensive dashboard.
+
+## 📊 Data Cleaning & Transformation
 
 1. **Data Extraction & Loading**: 
-   - The data was imported into Excel using Power Query for initial inspection, cleaning, and transformation.
+   - Imported data into Excel using Power Query for inspection, cleaning, and transformation.
 
 2. **Feature Engineering**:
-   - Extracted coffee size (Large, Regular, Small) from the `Product Detail` column and created a new `Size` column.
-   - Removed size information from `Product Detail` by replacing values (Lg, Rg, Sm) with blanks and trimmed extra spaces.
+   - Extracted coffee sizes (Large, Regular, Small) from the `Product Detail` column and created a new `Size` column.
+   - Cleaned the `Product Detail` column by removing size information and extra spaces.
 
 3. **New Calculated Fields**:
-   - Added a `Total Bill` column calculated as `transaction_qty * unit_price` with currency formatting.
+   - Created a `Total Bill` column using the formula `transaction_qty * unit_price`, formatted as currency.
 
 4. **Date and Time Adjustments**:
-   - Extracted time from the `transaction_time` column to remove redundant date information using the "Extract Text After Delimiter" feature.
-   - Created new columns (`Month Name`, `Day Name`, `Hour`) using Excel’s extract and add column features.
+   - Extracted only the time from the `transaction_time` column to remove redundant date information.
+   - Added `Month Name`, `Day Name`, and `Hour` columns for further analysis.
 
-## Data Analysis
+## 📈 Data Analysis
 
-- Created Pivot Tables to analyze key metrics:
-  1. Hour of Day vs Transaction Quantity (Sum)
-  2. Day of Week vs Total Bill (Sum)
-  3. Product Category vs Total Bill (Sum)
-  4. Month vs Total Bill (Sum)
-  5. Product Detail vs Total Bill (Sum)
-  6. Product Type vs Total Bill (Sum)
-  7. Store Location vs Total Bill & Total Orders (Distinct count of transaction_id)
-  8. Size vs # of Orders (Distinct transaction IDs)
-  9. Day of Week vs # of Orders
+- Created Pivot Tables to uncover key insights:
+  1. 📅 **Hour of Day vs Transaction Quantity (Sum)**
+  2. 📊 **Day of Week vs Total Bill (Sum)**
+  3. 🍵 **Product Category vs Total Bill (Sum)**
+  4. 📆 **Month vs Total Bill (Sum)**
+  5. 🛍️ **Product Detail vs Total Bill (Sum)**
+  6. ☕ **Product Type vs Total Bill (Sum)**
+  7. 🏢 **Store Location vs Total Bill & Total Orders (Distinct count of transaction_id)**
+  8. 🥤 **Size vs # of Orders (Distinct transaction IDs)**
+  9. 📈 **Day of Week vs # of Orders**
 
-- Created visualizations from the pivot tables and combined charts to ensure clarity and conciseness in the final dashboard.
-- Added slicers for Month, Day, Hour of Day, and Store Location to enable interactive filtering.
-- Included KPIs for Total Sales, Total Orders, Average Bill per Person, and Average Order per Person.
+- Developed visualizations and combined charts for an optimized dashboard view with interactive features like slicers and KPIs.
 
-## Key Insights
+## 🔍 Key Insights
 
-- **Overall Trends**: Sales have doubled over the months, indicating strong business performance.
-- **Sales Consistency**: Total revenue and orders remain uniform across weekdays and store locations.
-- **Peak Hours**: Coffee sales peak from 6 AM to 10 AM, stabilize between 12 PM and 5 PM, and decline further afterward.
-- **Popular Products**: Coffee, Tea, and Bakery items are the top revenue generators. Popular sub-categories include Barista Espresso, Brewed Chai Tea, and Hot Chocolate.
-- **Size Preferences**: Large and Regular sizes are most popular; small sizes are least preferred.
+- 📈 **Sales Trends**: Revenue doubled from $81.7K to $166.5K, showing a positive growth trend.
+- 🕒 **Peak Hours**: Sales peak from 6 AM to 10 AM and stabilize between 12 PM to 5 PM.
+- 📅 **Consistent Sales**: Revenue and orders remain uniform across weekdays and locations.
+- 🥐 **Popular Products**: Coffee, Tea, and Bakery items drive the most revenue.
+- 📏 **Size Preferences**: Large and Regular sizes are the most popular; Small is the least favored.
 
-## Deeper Insights by Location
+## 📍 Location-Specific Insights
 
-- **Lower Manhattan**: Peaks at 7 AM and 10 AM but drops significantly after 4 PM.
-- **Astoria**: Peaks at 10 AM and remains stable; it opens later and closes earlier than other locations.
-- **Hell’s Kitchen**: Peaks at 8 AM and 10 AM, then stabilizes after noon.
-- **Performance Ranking**: Astoria performs consistently well, followed by Hell’s Kitchen and Lower Manhattan.
+- **Lower Manhattan**: Peaks at 7 AM and 10 AM but declines significantly after 4 PM.
+- **Astoria**: Peaks at 10 AM, remains stable throughout the day, and operates on shorter hours.
+- **Hell’s Kitchen**: Shows peaks at 8 AM and 10 AM; stabilizes after noon.
 
-## Recommendations
+## 💡 Recommendations
 
-1. **Expand Morning Rush Capacity**: Add baristas or self-service options during peak hours (6 AM to 10 AM).
-2. **Promote Afternoon Specials**: Use discounts or combo deals to boost sales during uniform hours (12 PM to 5 PM).
+1. **Expand Morning Rush Capacity**: Add more staff or self-service kiosks during peak morning hours.
+2. **Promote Afternoon Specials**: Introduce discounts or combos to boost afternoon sales.
 3. **Optimize Astoria’s Hours**: Open earlier and close later to capture more traffic.
-4. **Address Evening Decline in Lower Manhattan**: Investigate factors behind the 7 PM drop and take corrective action.
-5. **Enhance Product Variety**: Introduce seasonal variations of popular items like Barista Espresso and Brewed Chai Tea.
-6. **Leverage Astoria’s Consistency**: Highlight Astoria’s steady performance in marketing to attract repeat customers.
-7. **Test New Bakery Items**: Introduce healthier or seasonal bakery options to drive sales.
+4. **Address Lower Manhattan’s Evening Decline**: Investigate reasons for the 7 PM drop and implement corrective actions.
+5. **Introduce Seasonal Drinks**: Offer limited-time variations of popular products to attract repeat customers.
+6. **Enhance Afternoon Engagement**: Use loyalty rewards or sampling events to drive traffic in the slower afternoon hours.
 
-## Conclusion
+## 📝 Conclusion
 
-This project highlights the importance of data-driven decisions in optimizing coffee shop operations. By addressing peak hours, product offerings, and location-specific performance, the coffee shop can further enhance sales and customer satisfaction.
+This project demonstrates how data analysis can optimize coffee shop operations, highlight peak performance times, and suggest targeted improvements for each location.
 
-## Authors
-- Your Name
+<p align="center">
+  <img src="https://media.giphy.com/media/l41YdO48HRpDIFSoA/giphy.gif" width="200" alt="Barista GIF">
+</p>
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 👤 Author
+- [Rajat Bahuguna](#)
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
