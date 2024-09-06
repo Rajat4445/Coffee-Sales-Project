@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/3oEduK14P1v6bPYjW8/giphy.gif" width="200" alt="Coffee GIF">
+  <img src="https://media.giphy.com/media/5pT419fusqLKnJ6ZUO/giphy.gif?cid=ecf05e4710ej2ymr5jg3tr4sz23tl365yi7xrvqa37xxqno7&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="200" alt="Coffee GIF">
 </p>
 
 # ☕ Coffee Sales Report: Data Cleaning, Transformation, and Analysis
