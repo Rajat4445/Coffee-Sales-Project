@@ -76,7 +76,13 @@ This project demonstrates how data analysis can optimize coffee shop operations,
   <a href="https://giphy.com/gifs/hoppip-art-film-eujb1tWaj3ZxS">via GIPHY</a>
 </p>
 
+## Watch explanation on YouTube
 
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGFyZzc3Z2dsc2poZ3JxZHVxNHRmZ3QxcHVydXYzZHk1c2JrZ2NscyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13Nc3xlO1kGg3S/giphy.gif" width="200" height="100" alt="Funny GIF">
+</p>
+
+[Watch the Video on YouTube](https://youtu.be/MO9zQL14ECI)
 
 ## 👤 Author
 - [Rajat Bahuguna](#)
