@@ -8,6 +8,8 @@
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-green)
 
+Detailed report can be read in `Coffee Sales Project Report` which has been attached in this repository itself.
+
 ## 🚀 Project Overview
 This project focuses on analyzing coffee sales data using **Microsoft Excel** to extract insights and make data-driven recommendations. The data was cleaned, transformed, and visualized, culminating in a comprehensive dashboard.
 
@@ -46,7 +48,7 @@ This project focuses on analyzing coffee sales data using **Microsoft Excel** to
 
 - 📈 **Sales Trends**: Revenue doubled from $81.7K to $166.5K, showing a positive growth trend.
 - 🕒 **Peak Hours**: Sales peak from 6 AM to 10 AM and stabilize between 12 PM to 5 PM.
-- 📅 **Consistent Sales**: Revenue and orders remain uniform across weekdays and locations.
+- 📅 **Increasing Sales**: Revenue and orders increased over the weeks.
 - 🥐 **Popular Products**: Coffee, Tea, and Bakery items drive the most revenue.
 - 📏 **Size Preferences**: Large and Regular sizes are the most popular; Small is the least favored.
 
